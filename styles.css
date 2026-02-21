@@ -27,3 +27,19 @@
     height: 100%;
     object-fit: cover;
 }
+#form-pan{
+    top: 20%;
+    position: relative;
+
+}
+#form-pan form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+input ,select{
+    width: 45%;
+    height: 35px;
+    border-radius: 5px;
+}

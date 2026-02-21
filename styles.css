@@ -3,3 +3,16 @@
     padding: 0;
     margin: 0;
 }
+#form-header{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+}
+#detail-pan{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}

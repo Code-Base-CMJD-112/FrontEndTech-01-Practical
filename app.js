@@ -19,11 +19,12 @@ form.addEventListener("submit",(e)=>{
        formCourse: course,
        formEmail: email
    }
-   console.log(courseData)
-   console.log(JSON.stringify(courseData))
+   console.log(courseData);
+   console.log(JSON.stringify(courseData));
 
+   
+   formData !== null ? document.getElementById("alert-pan-success").innerHTML = "<p>Saved!!</p>"
+                :document.getElementById("alert-pan-failed").innerHTML =" <p>Save Failed!!</p>"
 
-
-  
 })
 
